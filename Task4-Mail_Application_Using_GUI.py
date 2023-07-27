@@ -41,7 +41,8 @@ Label(master,text="To",font=('Calibri',11)).grid(row=4,sticky=W,padx=5)
 Label(master,text="Subject",font=('Calibri',11)).grid(row=5,sticky=W,padx=5)
 Label(master,text="Body",font=('Calibri',11)).grid(row=6,sticky=W,padx=5)
 
-notif=Label(master,text="",font=('Calibri',11)).grid(row=7,sticky=S,padx=5)
+notif=Label(master,text="",font=('Calibri',11))
+notif.grid(row=7,sticky=S,padx=5)
 
 temp_username=StringVar()
 temp_password=StringVar()
